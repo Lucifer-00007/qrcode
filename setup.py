@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'MyQR',
-  packages = ['myqr'],
+  packages = ['MyQR','MyQR.mylibs'],
   version = '0.1',
   license='MIT',
   description = 'QR Code Making Library forked from sylnsfar/qrcode',
