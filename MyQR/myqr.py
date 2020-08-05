@@ -127,7 +127,3 @@ def run(words, version=1, level='H', picture=None, colorized=False, contrast=1.0
         
     except:
         raise
-    finally:
-        import shutil
-        if os.path.exists(tempdir):
-            shutil.rmtree(tempdir) 
